@@ -1,0 +1,62 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+
+.btton{
+    background-color:#3cc88f;
+    border-radius:50 px;
+    color: #ffffff;
+    margin-left: -15px;
+    width:300px;
+    text-align:center;
+}
+
+.btton .after{
+    display:none;
+}
+
+.btton:hover .before{
+    display:none;
+}
+
+.btton:hover{
+    background-color:rgb(113, 113, 233);
+    transition: background-color 1s ease-out 1ms;
+}
+
+.btton:hover .after{
+    display:inline;
+    color:white;
+}
+
+.highlighted{
+    background-color: #3cc88f;
+    color: #ffffff;
+}
+header .nav-col .navbad li a.highlighted{
+    background-color: #3cc88f;
+
+    color: white !important;
+    border: 1px solid #CCC;
+    border-radius: 50px;
+}
+
+.fa-facebook:hover{
+    color: #3b5998  !important;
+
+}
+
+.fa-instagram:hover{
+    color:#cd486b !important;
+    /* background-image: linear-gradient(red, yellow) !important; */
+}
+
+.text-indentation p{
+    text-indent:50px;
+}
+
+/* Used for text aligning in index.html page */
+.text-aligning-at-center{
+    text-align:center;
+}
+
